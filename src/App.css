@@ -91,5 +91,51 @@
   justify-content: center;
 }
 
+.det1{
+  display: flex;
+  width: 80%;
+  /* border: 1px solid black; */
+  margin-left: 25px;
+}
 
-/* text-xl font-light p-2 w-full shadow-xl focus:outline-none capitalize placeholder:lowercase */
+.detH{
+  font-size: 4rem;
+  font-weight: bolder;
+  text-align: left;
+ 
+}
+
+.detI{
+  color: yellow;
+}
+
+.details{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.temRow{
+  display: flex;
+  flex-direction: row;
+}
+
+.temCol{
+  display: flex;
+  flex-direction: column;
+}
+
+.temp2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+ 
+}
+
+
+.temp2> div{
+  border: 1px solid;
+  padding: 3px;
+  background-color: rgb(206, 204, 204);
+  border-radius: 2px;
+
+}
