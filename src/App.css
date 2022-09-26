@@ -1,10 +1,10 @@
 
 .main{
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
   padding-top: 15px;
   width: 400px;
-  height: 700px;
+  height: 650px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   border-radius: 15px;
   /* background-color: gray; */
@@ -51,11 +51,12 @@
 .inputmain{
   width: 95%;
   display: flex;
+  margin: auto;
   padding: 5px;
-  margin: 5px;
+  margin-bottom: 15px;
   flex-direction: row;
   justify-content: center;
-  margin: auto;
+ 
   color: black;
   justify-content: space-around;
   cursor: pointer;
@@ -99,7 +100,7 @@
 }
 
 .detH{
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bolder;
   text-align: left;
  
@@ -111,6 +112,7 @@
 
 .details{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 5px;
 }
 
 .temRow{
@@ -133,9 +135,28 @@
 
 
 .temp2> div{
-  border: 1px solid;
+  border: 1px solid rgb(206, 204, 204);
   padding: 3px;
-  background-color: rgb(206, 204, 204);
+  
+  background-color: rgb(238, 232, 232);
   border-radius: 2px;
 
+}
+
+
+.time1{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  
+}
+
+.time1 >p{
+  color: black;
+}
+
+.time2{
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-align: center;
 }

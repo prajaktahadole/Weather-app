@@ -1,5 +1,6 @@
 import "./App.css";
 import Inputs from "./components/Inputs";
+import Time from "./components/Time";
 import Details from "./components/Details";
 import Forecast from "./components/Forecast";
 import getFormattedWeatherData from "./services/weatherService";
@@ -38,7 +39,7 @@ function App() {
           <Forecast title="daily forecast" items={weather.daily} />
           <Details weather={weather} />
           <Forecast title="hourly forecast" items={weather.hourly} />
-         
+          <Time weather={weather} />
           
         </div>
       )}
