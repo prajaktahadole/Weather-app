@@ -89,21 +89,39 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  justify-content: center;
 }
 
 .det1{
   display: flex;
-  width: 80%;
+  width: 98%;
   /* border: 1px solid black; */
-  margin-left: 25px;
+  justify-content: space-evenly;
+ 
 }
+
+.det11{
+  display: flex;
+  flex-direction: column;
+}
+
+.det11 > div{
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+.ic{
+  margin-top: 4px;
+}
+
 
 .detH{
   font-size: 3.5rem;
   font-weight: bolder;
   text-align: left;
- 
+
 }
 
 .detI{
@@ -115,14 +133,14 @@
   padding: 5px;
 }
 
-.temRow{
-  display: flex;
-  flex-direction: row;
-}
 
 .temCol{
   display: flex;
   flex-direction: column;
+}
+
+.temCol > p{
+  display: flex;
 }
 
 .temp2 {
@@ -135,13 +153,14 @@
 
 
 .temp2> div{
+  font-size: medium;
   border: 1px solid rgb(206, 204, 204);
   padding: 3px;
-  
-  background-color: rgb(238, 232, 232);
-  border-radius: 2px;
+  background-color: rgb(240, 239, 239);
+  border-radius: 3px;
 
 }
+
 
 
 .time1{

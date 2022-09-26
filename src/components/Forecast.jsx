@@ -22,6 +22,7 @@ function Forecast({ title, items,
             />
            
             <p className="forP">{`${item.temp.toFixed()}°`}</p>
+            <p className="forP">{item.weath}</p>
           </div>
         ))}
       </div>
