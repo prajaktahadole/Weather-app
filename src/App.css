@@ -1,10 +1,10 @@
 
 .main{
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 15px;
-  width: 400px;
-  height: 650px;
+  width: 450px;
+  height: 700px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   border-radius: 15px;
   /* background-color: gray; */
@@ -56,7 +56,6 @@
   margin-bottom: 15px;
   flex-direction: row;
   justify-content: center;
- 
   color: black;
   justify-content: space-around;
   cursor: pointer;
@@ -154,28 +153,43 @@
 
 .temp2> div{
   font-size: medium;
-  border: 1px solid rgb(206, 204, 204);
+  border: 1px solid rgb(207, 252, 252);
   padding: 3px;
-  background-color: rgb(240, 239, 239);
+  background-color: rgb(243,251,255);
   border-radius: 3px;
 
 }
-
-
-
-.time1{
-  display: flex;
-  justify-items: center;
-  justify-content: center;
+.timer{
+  width: 100%;
   
 }
 
-.time1 >p{
+
+.time1{
   color: black;
+  display: flex;
+  justify-items: center;
+  font-size: medium;
+  font-weight: 500;
+  justify-content: space-evenly;
 }
 
+
+
 .time2{
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bolder;
   text-align: center;
 }
+
+
+.graph {
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+

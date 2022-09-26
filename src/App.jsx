@@ -2,10 +2,11 @@ import "./App.css";
 import Inputs from "./components/Inputs";
 import Time from "./components/Time";
 import Details from "./components/Details";
+import Pressure from "./components/graphs";
 import Forecast from "./components/Forecast";
 import getFormattedWeatherData from "./services/weatherService";
 import { useEffect, useState } from "react";
-
+import moment from 'moment';
 
 function App() {
   const [query, setQuery] = useState({ q: "Pune" });
@@ -38,7 +39,8 @@ function App() {
         <div>
           <Forecast title="daily forecast" items={weather.daily} />
           <Details weather={weather} />
-          <Forecast title="hourly forecast" items={weather.hourly} />
+          {/* <Forecast title="hourly forecast" items={weather.hourly} /> */}
+          <Pressure data="hourly forecast" hourly={weather.hourly} />
           <Time weather={weather} />
           
         </div>
