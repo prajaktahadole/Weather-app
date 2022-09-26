@@ -1,3 +1,95 @@
-.App {
-  text-align: center;
+
+.main{
+  margin: auto;
+  margin-top: 10px;
+  padding-top: 15px;
+  width: 400px;
+  height: 700px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 15px;
+  /* background-color: gray; */
+
 }
+
+
+.forecast{
+  margin: 5px 5px 8px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  color: black;
+ 
+}
+.forecast > div{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.forecast > div:hover{
+  border: 1.5px solid rgb(31, 148, 194);
+}
+
+.forP{
+  font-size: medium;
+  font-weight: 500;
+ 
+}
+
+.forI{
+  font-weight: 600; 
+}
+
+
+
+.inputmain{
+  width: 95%;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  color: black;
+  justify-content: space-around;
+  cursor: pointer;
+  
+}
+
+/* .inputmain > div{
+  border: 1px solid ;
+} */
+
+.inp{
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  width: 70%;
+  height: 30px;
+  padding: 2px;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.inpI{
+  color: black;
+  margin-right: 1px;
+  
+}
+.inpR{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: center;
+}
+
+
+/* text-xl font-light p-2 w-full shadow-xl focus:outline-none capitalize placeholder:lowercase */
