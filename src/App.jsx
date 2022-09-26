@@ -1,4 +1,3 @@
-
 import "./App.css";
 import Inputs from "./components/Inputs";
 import Forecast from "./components/Forecast";
@@ -36,6 +35,7 @@ function App() {
       {weather && (
         <div>
           <Forecast title="daily forecast" items={weather.daily} />
+          <Forecast title="hourly forecast" items={weather.hourly} />
           
           
         </div>
